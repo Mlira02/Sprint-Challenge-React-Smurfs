@@ -37,18 +37,21 @@ class SmurfForm extends Component {
             value={this.state.name}
             name="name"
           />
+          <br />
           <input
             onChange={this.handleInputChange}
             placeholder="age"
             value={this.state.age}
             name="age"
           />
+          <br />
           <input
             onChange={this.handleInputChange}
             placeholder="height"
             value={this.state.height}
             name="height"
           />
+          <br />
           <button type="submit">Add to the village</button>
         </form>
       </div>
